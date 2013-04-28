@@ -47,3 +47,19 @@ No primeiro dia de uso do PCDuino, instalei::
 - tree (visualizacao de uma arvore de diretorios no console)
 - geany (editor para programacao)
 - python-tk (biblioteca grafica Tkinter para o Python 2.7.3)
+
+-------------------
+Espaco disponivel
+-------------------
+
+Ao final da instalacao inicial restam 478MB na armazenagem NAND::
+
+	$ df -h
+	Filesystem      Size  Used Avail Use% Mounted on
+	/dev/nandd      1.5G  925M  478M  66% /
+	none            405M  4.0K  405M   1% /dev
+	none            408M  284K  408M   1% /tmp
+	none             82M  240K   82M   1% /run
+	none            5.0M     0  5.0M   0% /run/lock
+	none            408M  144K  408M   1% /run/shm
+	none            408M   96K  408M   1% /var/tmp
